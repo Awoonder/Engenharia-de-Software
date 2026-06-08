@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"><title>Catálogo de Serviços - LV&J</title>
+    <link rel="stylesheet" href="../css/comando_geral.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo-area"><h2>LV&J</h2><span>Software UMZ</span></div>
+        <nav class="menu">
+            <a href="dashboard.html" class="menu-item"><i class="fa-solid fa-house"></i> Dashboard</a>
+            <a href="ordens.html" class="menu-item"><i class="fa-solid fa-file-invoice"></i> Ordens</a>
+            <a href="serviços.html" class="menu-item active"><i class="fa-solid fa-screwdriver-wrench"></i> Serviços</a>
+            <a href="produtos.html" class="menu-item"><i class="fa-solid fa-box"></i> Produtos</a>
+            <a href="clientes.html" class="menu-item"><i class="fa-solid fa-users"></i> Clientes</a>
+            <a href="vendas.html" class="menu-item"><i class="fa-solid fa-cart-shopping"></i> Vendas</a>
+        </nav>
+        <div class="user-profile"><div class="avatar">JV</div><div class="user-info"><span class="user-name">João Vitor</span><span class="user-role">Administrador</span></div></div>
+    </aside>
+    <main class="main-content">
+        <div class="header-page">
+            <div><h1>Serviços de Mão de Obra</h1><p>Cadastre e gerencie o valor das suas horas técnicas</p></div>
+            <button class="btn-primary"><i class="fa-solid fa-plus"></i> Novo Serviço</button>
+        </div>
+        <div class="table-container">
+            <input type="text" class="search-bar" placeholder="Buscar serviços pelo nome...">
+            <table>
+                <thead>
+                    <tr><th>Código</th><th>Nome do Serviço</th><th>Descrição Básica</th><th>Tempo Estimado</th><th>Preço Base</th><th>Ações</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><b>SRV-001</b></td><td>Formatação de SO</td><td>Instalação de Windows/Linux com backup de dados</td><td>2 horas</td><td>R$ 150,00</td><td class="actions-cell"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td></tr>
+                    <tr><td><b>SRV-002</b></td><td>Limpeza Técnica Interna</td><td>Desoxidação e troca de pasta térmica premium</td><td>1.5 horas</td><td>R$ 120,00</td><td class="actions-cell"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    
+   
+</body>
+</html>

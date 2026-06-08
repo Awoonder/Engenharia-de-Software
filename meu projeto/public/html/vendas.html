@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"><title>Vendas - LV&J</title>
+    <link rel="stylesheet" href="../css/comando_geral.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo-area"><h2>LV&J</h2><span>Software UMZ</span></div>
+        <nav class="menu">
+            <a href="dashboard.html" class="menu-item"><i class="fa-solid fa-house"></i> Dashboard</a>
+            <a href="ordens.html" class="menu-item"><i class="fa-solid fa-file-invoice"></i> Ordens</a>
+            <a href="serviços.html" class="menu-item"><i class="fa-solid fa-screwdriver-wrench"></i> Serviços</a>
+            <a href="produtos.html" class="menu-item"><i class="fa-solid fa-box"></i> Produtos</a>
+            <a href="clientes.html" class="menu-item"><i class="fa-solid fa-users"></i> Clientes</a>
+            <a href="vendas.html" class="menu-item active"><i class="fa-solid fa-cart-shopping"></i> Vendas</a>
+        </nav>
+        <div class="user-profile"><div class="avatar">JV</div><div class="user-info"><span class="user-name">João Vitor</span><span class="user-role">Administrador</span></div></div>
+    </aside>
+    <main class="main-content">
+        <div class="header-page">
+            <div><h1>Vendas Diretas</h1><p>Histórico de saídas de produtos de balcão</p></div>
+            <button class="btn-primary"><i class="fa-solid fa-plus"></i> Nova Venda</button>
+        </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr><th>Venda</th><th>Cliente</th><th>Total</th><th>Pagamento</th><th>Status</th><th>Ações</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><b>V-1001</b></td><td>Maria Silva</td><td>R$ 850,00</td><td>Cartão de Crédito</td><td><span class="badge success">Pago</span></td><td class="actions-cell"><i class="fa-solid fa-eye"></i><i class="fa-solid fa-trash"></i></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>

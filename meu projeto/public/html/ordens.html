@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"><title>Ordens de Serviço - LV&J</title>
+    <link rel="stylesheet" href="../css/comando_geral.css">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo-area"><h2>LV&J</h2><span>Software UMZ</span></div>
+        <nav class="menu">
+            <a href="dashboard.html" class="menu-item"><i class="fa-solid fa-house"></i> Dashboard</a>
+            <a href="ordens.html" class="menu-item active"><i class="fa-solid fa-file-invoice"></i> Ordens</a>
+            <a href="serviços.html" class="menu-item"><i class="fa-solid fa-screwdriver-wrench"></i> Serviços</a>
+            <a href="produtos.html" class="menu-item"><i class="fa-solid fa-box"></i> Produtos</a>
+            <a href="clientes.html" class="menu-item"><i class="fa-solid fa-users"></i> Clientes</a>
+            <a href="vendas.html" class="menu-item"><i class="fa-solid fa-cart-shopping"></i> Vendas</a>
+        </nav>
+        <div class="user-profile"><div class="avatar">JV</div><div class="user-info"><span class="user-name">João Vitor</span><span class="user-role">Administrador</span></div></div>
+    </aside>
+    <main class="main-content">
+        <div class="header-page">
+            <div><h1>Ordens de Serviço</h1><p>Gerencie as solicitações técnicas</p></div>
+            <button id="btn-abrir-modal" class="btn-novo">Nova Ordem de Serviço</button>
+          
+        </div>
+        <div class="table-container">
+            <input type="text" class="search-bar" placeholder="Buscar por cliente ou número de OS...">
+    <table class="tabela-servicos">
+    <thead>
+        <tr>
+            <th>Número OS</th>
+            <th>Cliente</th>
+            <th>Equipamento</th>
+            <th>Status</th>
+            <th>Data</th>
+            <th>Valor</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody id="tabela-servicos-corpo">
+        </tbody>
+</table>
+        </div>
+    </main>
+
+
+
+
+  <div id="modal-cadastro" class="modal">
+    <div class="modal-conteudo">
+        <span class="fechar-modal">&times;</span>
+        <h2>Cadastrar Nova OS</h2>
+        <form id="form-cadastro">
+            <input type="text" placeholder="Equipamento" required>
+            <input type="text" placeholder="Cliente ID" required>
+            <button type="submit">Salvar Ordem</button>
+        </form>
+    </div>
+</div>
+
+
+   <script src="servicos.js"></script>
+   <script src="../js/cadastro.js"></script>
+
+    
+</body>
+</html>

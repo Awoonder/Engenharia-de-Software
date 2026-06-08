@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"><title>Produtos - LV&J</title>
+    <link rel="stylesheet" href="../css/comando_geral.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo-area"><h2>LV&J</h2><span>Software UMZ</span></div>
+        <nav class="menu">
+            <a href="dashboard.html" class="menu-item"><i class="fa-solid fa-house"></i> Dashboard</a>
+            <a href="ordens.html" class="menu-item"><i class="fa-solid fa-file-invoice"></i> Ordens</a>
+            <a href="serviços.html" class="menu-item"><i class="fa-solid fa-screwdriver-wrench"></i> Serviços</a>
+            <a href="produtos.html" class="menu-item active"><i class="fa-solid fa-box"></i> Produtos</a>
+            <a href="clientes.html" class="menu-item"><i class="fa-solid fa-users"></i> Clientes</a>
+            <a href="vendas.html" class="menu-item"><i class="fa-solid fa-cart-shopping"></i> Vendas</a>
+        </nav>
+        <div class="user-profile"><div class="avatar">JV</div><div class="user-info"><span class="user-name">João Vitor</span><span class="user-role">Administrador</span></div></div>
+    </aside>
+    <main class="main-content">
+        <div class="header-page">
+            <div><h1>Produtos</h1><p>Gerencie seu estoque físico</p></div>
+            <button class="btn-primary"><i class="fa-solid fa-plus"></i> Novo Produto</button>
+        </div>
+        <div class="cards-grid">
+            <div class="card"><h3>Total de Itens</h3><p>98</p></div>
+            <div class="card"><h3>Estoque Baixo</h3><p style="color: var(--danger-txt)">1</p></div>
+        </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr><th>ID</th><th>Nome</th><th>Categoria</th><th>Estoque</th><th>Preço</th><th>Ações</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><b>P-001</b></td><td>Tela LCD 15.6</td><td>Peças</td><td><span class="badge success">15 un.</span></td><td>R$ 450,00</td><td class="actions-cell"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td></tr>
+                    <tr><td><b>P-002</b></td><td>Bateria iPhone 13</td><td>Peças</td><td><span class="badge danger">1 un.</span></td><td>R$ 280,00</td><td class="actions-cell"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>

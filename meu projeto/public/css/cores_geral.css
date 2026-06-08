@@ -1,0 +1,48 @@
+:root {
+    --bg-main: #f8f9fa;
+    --bg-sidebar: #0f172a;
+    --primary-blue: #1d4ed8;
+    --primary-hover: #1e40af;
+    --text-dark: #1e293b;
+    --text-muted: #64748b;
+    --white: #ffffff;
+    --border-color: #e2e8f0;
+    
+    /* Status Colors */
+    --success-bg: #dcfce7; --success-txt: #15803d;
+    --warning-bg: #fef9c3; --warning-txt: #a16207;
+    --danger-bg: #fee2e2;  --danger-txt: #b91c1c;
+    --info-bg: #dbeafe;    --info-txt: #1d4ed8;
+}
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', sans-serif; 
+}
+
+body { 
+    background-color: var(--bg-main); 
+    color: var(--text-dark); 
+    height: 100vh; 
+    display: flex; 
+    overflow: hidden; 
+}
+
+/* Estrutura de Layout Principal */
+.main-content { 
+    flex-grow: 1; 
+    padding: 40px; 
+    overflow-y: auto; 
+}
+
+.header-page { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 24px; 
+}
+
+.header-page h1 { font-size: 28px; font-weight: 600; }
+.header-page p { color: var(--text-muted); font-size: 14px; }

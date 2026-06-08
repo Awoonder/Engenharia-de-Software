@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"><title>Clientes - LV&J</title>
+    <link rel="stylesheet" href="../css/comando_geral.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo-area"><h2>LV&J</h2><span>Software UMZ</span></div>
+        <nav class="menu">
+            <a href="dashboard.html" class="menu-item"><i class="fa-solid fa-house"></i> Dashboard</a>
+            <a href="ordens.html" class="menu-item"><i class="fa-solid fa-file-invoice"></i> Ordens</a>
+            <a href="serviços.html" class="menu-item"><i class="fa-solid fa-screwdriver-wrench"></i> Serviços</a>
+            <a href="produtos.html" class="menu-item"><i class="fa-solid fa-box"></i> Produtos</a>
+            <a href="clientes.html" class="menu-item active"><i class="fa-solid fa-users"></i> Clientes</a>
+            <a href="vendas.html" class="menu-item"><i class="fa-solid fa-cart-shopping"></i> Vendas</a>
+        </nav>
+        <div class="user-profile"><div class="avatar">JV</div><div class="user-info"><span class="user-name">João Vitor</span><span class="user-role">Administrador</span></div></div>
+    </aside>
+    <main class="main-content">
+        <div class="header-page">
+            <div><h1>Clientes</h1><p>Cadastro e histórico de contatos</p></div>
+            <button class="btn-primary"><i class="fa-solid fa-plus"></i> Novo Cliente</button>
+        </div>
+        <div class="table-container">
+            <table style="width: 100%">
+                <thead>
+                    <tr><th>ID</th><th>Nome</th><th>Email</th><th>Telefone</th><th>CPF/CNPJ</th><th>Ações</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><b>C-001</b></td><td>Maria Silva</td><td>maria@email.com</td><td>(11) 98765-4321</td><td>123.456.789-00</td><td class="actions-cell"><i class="fa-solid fa-eye"></i><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
